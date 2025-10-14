@@ -10,7 +10,7 @@ else
    echo "you are running with root access"
 fi
 
-dnf install mysqlwww -y 
+dnf install mysql -y 
 
 if [ $? -ne 0]
 then 
