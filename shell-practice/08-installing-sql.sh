@@ -16,6 +16,6 @@ if [ $? -eq 0]
 then 
     echo "my sqlserver is successfully installed"
 else 
-    echo "mysql server is not installed "
+    echo "mysql server is not installed"
     exit 1
 fi    
