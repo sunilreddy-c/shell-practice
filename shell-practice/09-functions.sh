@@ -1,4 +1,4 @@
-#!/bin/bash
+#!i/bin/bash
 
 USERID=$(id -u)
 
