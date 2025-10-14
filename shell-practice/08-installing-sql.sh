@@ -17,4 +17,5 @@ then
     echo "my sqlserver is successfully installed"
 else 
     echo "mysql server is not installed "
-fi  exit 1 
+    exit 1
+fi    
