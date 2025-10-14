@@ -11,3 +11,11 @@ else
 fi
 
        
+dnf install mysqlwww -y 
+
+if [ $? -ne 0]
+then 
+    echo "my sqlserver is successfully installed"
+else 
+    echo "mysql server is not installed "
+fi   
