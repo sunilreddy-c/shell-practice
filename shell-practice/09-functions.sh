@@ -17,6 +17,7 @@ VALIDATE (){
     else 
         echo "$2 server is not installed "
         exit 1
+     fi
 }
 
 dnf list installed mysql
