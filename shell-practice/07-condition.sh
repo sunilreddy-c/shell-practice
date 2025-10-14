@@ -12,4 +12,4 @@ then
 echo "given number is $NUMBER is lessthan 10"
 else
 echo "given number is not $NUMBER is not lessthan 10"
-
+fi
